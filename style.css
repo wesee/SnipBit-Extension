@@ -1,0 +1,30 @@
+body {
+	font-family: "Lucida Grande";
+	width: 300px;
+}
+
+/*------------------
+	  Main Page
+------------------*/
+
+.send-button {
+	width: 300px;
+	margin: 0 auto;
+	border-radius: none;
+	margin-top: 10px;
+	height: 60px;
+}
+
+.qrcode{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.qrcode img {
+	width: 200px;
+	height: 200px;
+}
+
+#recieve-address {
+	text-align: center;
+}

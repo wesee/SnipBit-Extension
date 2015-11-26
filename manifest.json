@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "SnipBit",
+  "description": "This extension allows you to interact with the SnipBit platform",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "unlimitedStorage",
+    "webRequest",
+    "webRequestBlocking",
+    "storage"
+  ]
+}
