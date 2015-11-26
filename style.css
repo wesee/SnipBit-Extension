@@ -1,30 +1,35 @@
 body {
 	font-family: "Lucida Grande";
 	width: 300px;
+	margin: 0 0 0 0;
 }
 
 /*------------------
 	  Main Page
 ------------------*/
-
-.send-button {
-	width: 300px;
-	margin: 0 auto;
-	border-radius: none;
-	margin-top: 10px;
-	height: 60px;
+nav ul {
+	padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blue;
+    width: 100%;
 }
 
-.qrcode{
-	margin: 0 auto;
-	text-align: center;
+nav ul li {
+	width: 50%;
+    height: 25px;
+    background-color: blue;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    float: left;
 }
 
-.qrcode img {
-	width: 200px;
-	height: 200px;
+nav ul li a {
+	color: white;
+	table-decoration: none; 
 }
 
-#recieve-address {
-	text-align: center;
+h3 {
+	margin-top: 0;
 }
