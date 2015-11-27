@@ -16,7 +16,7 @@ nav ul {
 }
 
 nav ul li {
-	width: 50%;
+	width: 33%;
     height: 25px;
     background-color: blue;
     text-align: center;
@@ -32,4 +32,13 @@ nav ul li a {
 
 h3 {
 	margin-top: 0;
+}
+
+
+/*------------------
+      Send Page
+------------------*/
+
+#sendConfirmation p {
+    color: green;
 }

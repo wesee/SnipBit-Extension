@@ -42,7 +42,7 @@ function getEmailAndPassword(callback) {
 
 	chrome.storage.local.get("userEmail", function (data) {
 		email += data.userEmail;
-		callbackEmail(email);
+		callback(email);
 	});
 }
 
