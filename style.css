@@ -17,8 +17,8 @@ nav ul {
 
 nav ul li {
 	width: 33%;
-    height: 25px;
-    background-color: blue;
+    height: 30px;
+    background-color: #3498db;
     text-align: center;
     list-style: none;
     display: inline-block;
@@ -27,7 +27,7 @@ nav ul li {
 
 nav ul li a {
 	color: white;
-	table-decoration: none; 
+	text-decoration: none; 
 }
 
 h3 {

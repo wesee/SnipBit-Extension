@@ -4,6 +4,18 @@
   "name": "SnipBit",
   "description": "This extension allows you to interact with the SnipBit platform",
   "version": "1.0",
+  "background": {
+        "scripts": ["js/events.js"],
+        "persistent": false
+    },
+
+    "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/contentscript.js"],
+      "run_at": "document_end"
+    }
+  ],
 
   "browser_action": {
     "default_icon": "images/icon.png",
@@ -14,8 +26,9 @@
     "http://*/",
     "https://*/",
     "unlimitedStorage",
-    "webRequest",
     "webRequestBlocking",
-    "storage"
+    "storage",
+    "activeTab", 
+    "tabs"
   ]
 }

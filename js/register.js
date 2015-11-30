@@ -62,6 +62,7 @@ function callbackPassword(password, email){
 
 function callbackEmail(email) {
 	var password = "";
+	
 	chrome.storage.local.get("userPassword", function (data) {
 		password += data.userPassword;
 		callbackPassword(password, email);
