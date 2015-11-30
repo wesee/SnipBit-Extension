@@ -1,7 +1,7 @@
 function callbackWriteAccountInfo(password, email, guid, address, accountLink) {
 	var here = document.getElementById("here");
-	here.innerHTML = "<p>Password: " + password + "</p>" + "<p>Email: " + email + "</p>" + "<p>GUID: " + guid + "</p>" + 
-	"<p>Address: " + address + "</p>" + "<p>Account Link: " + "<a href='" + accountLink + "'>" + accountLink + "</a>" +"</p>";
+	here.innerHTML = "<p class='first'>Password: " + password + "</p>" + "<p>Email: " + email + "</p>" + "<p>GUID: " + guid + "</p>" + 
+	"<p>Address: " + address + "</p>" + "<p>Account Link: " + "<a href='" + accountLink + "' target='_blank'>" + "https://blockchain.info/wallet/..." + "</a>" +"</p>";
 }
 
 function callbackAcccountLink(password, email, guid, address) {

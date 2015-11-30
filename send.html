@@ -2,24 +2,28 @@
 <html>
 	<head>
 		<title>Send</title>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<nav>
 			<ul>
-				<li><a href="index.html">Main Page</a></li>
-				<li><a href="page.html">Account info</a></li>
-				<li><a href="register.html">Make an Account</a></li>
+				<li><a href="page.html">Account Info</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="register.html">New Account</a></li>
 			</ul>
 		</nav>
-		<div class="send-form">
+		<div class="send-form container">
+			<h3>Send</h3>
 			<form id="send" action="sent.html">
-				<h3>Send</h3>
 				<label for="address">Address</label>
+				<br />
 				<input type="text" id="address" name="address" required />
 				<br />
 				<label for="amount">Amount</label>
+				<br />
 				<input type="text" id="amount" name="amount" required />
+				<br />
 				<input type="submit" id="submit" value="Send TX" />
 			</form>
 		</div>

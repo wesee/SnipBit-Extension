@@ -2,28 +2,28 @@
 <html>
 	<head>
 		<title>SnipBit Chrome Extension</title>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bitcore-lib.min.js"></script>
-		<script type="text/javascript" src="js/bitcore-payment-protocol.min.js"></script>
-		<!--<script type="text/javascript" src="js/popup.js"></script>-->
 	</head>
 	<body>
 		<nav>
 			<ul>
-				<li><a href="index.html">Main Page</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="page.html">Account info</a></li>
 				<li><a href="send.html">Send</a></li>
 			</ul>
 		</nav>
-		<div class="sign-up">
+		<div class="sign-up container">
+			<h3>Create Wallet</h3>
 			<form id="register" action="page.html">
-				<h3>Create Wallet</h3>
 				<label for="email">Email</label>
+				<br />
 				<input type="email" id="email" name="email" required />
 				<br />
 				<label for="pswd">Password</label>
+				<br />
 				<input type="password" id="pswd" name="pswd" required />
+				<br />
 				<input type="submit" id="submit" value="Create Wallet" />
 			</form>
 		</div>

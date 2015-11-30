@@ -1,12 +1,42 @@
 body {
-	font-family: "Lucida Grande";
+	font-family: 'Montserrat', sans-serif;
 	width: 300px;
 	margin: 0 0 0 0;
 }
 
-/*------------------
-	  Main Page
-------------------*/
+form {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#submit {
+    border: none;
+    height: 35px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #3498db;
+}
+
+label {
+    font-size: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 nav ul {
 	padding: 0;
     margin: 0 auto;
@@ -16,7 +46,8 @@ nav ul {
 }
 
 nav ul li {
-	width: 33%;
+	padding-top: 14px;
+    width: 33.3%;
     height: 30px;
     background-color: #3498db;
     text-align: center;
@@ -32,13 +63,28 @@ nav ul li a {
 
 h3 {
 	margin-top: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 60px;
 }
 
+#balance {
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 0;
+    color: #7f8c8d;
+}
 
-/*------------------
-      Send Page
-------------------*/
-
-#sendConfirmation p {
-    color: green;
+#here {
+    margin-top: 10px;
+    background: #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: "Courier New";
+    font-weight: 500;
+}
+ 
+#here .first {
+    margin-top: 0;
 }
