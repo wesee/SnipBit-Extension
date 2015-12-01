@@ -1,3 +1,4 @@
+//Recieve in Browser
 var importPaymentProtocol = document.createElement('script');
 	importPaymentProtocol.src = 'js/bitcore-payment-protocol.min.js';
 	document.head.appendChild(importPaymentProtocol);

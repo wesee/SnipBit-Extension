@@ -58,7 +58,7 @@ chrome.runtime.onMessage.addListener(
 					var payment_url = details.get('payment_url');
 					var merchant_data = details.get('merchant_data');
 
-					var confirmPayment = confirm("Are you sure you'd like to send " + satoshis + " satoshis for " + memo);
+					var confirmPayment = confirm("Are you sure you'd like to pay " + satoshis + " satoshis for " + memo);
 
 					if (confirmPayment) {
 						//Create Tx
