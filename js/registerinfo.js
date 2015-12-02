@@ -15,4 +15,4 @@ function saveUsernamePassword() {
 }
 
 var form = document.getElementById("register");
-form.addEventListener('register', saveUsernamePassword, false);
+form.addEventListener('submit', saveUsernamePassword, false);
